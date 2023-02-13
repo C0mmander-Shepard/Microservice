@@ -21,7 +21,10 @@ RECEIVING DATA:
 
 The results for the microservice request will also be sent back to the user using ZeroMQ. This will come in a json format so the user will need to anticipate that as the response type. The user can expect the results in a list just as input in this format [weight, height]. The results will be converted into metric units. Note the format used to receive data below.
 
-#  Get the reply.
+Get the reply.*
 print("Awaiting response...")
 
 result = socket.recv_json()
+
+
+![image](https://user-images.githubusercontent.com/38335751/218407822-dde9737f-6000-4b90-b0eb-d9f54852f2c3.png)
